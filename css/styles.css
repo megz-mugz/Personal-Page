@@ -1,0 +1,180 @@
+body {
+  background-color: #222831;
+}
+/* navbar */
+
+.navbar {
+  background-color: #222831;
+  padding: 1% 10%;
+  text-align: center;
+}
+.logo {
+  width: 12%;
+}
+
+.nav-link {
+  margin: 15px 50px 0px 50px;
+  color: #EEEEEE;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+
+}
+
+.nav-link:hover {
+  color: #FFD369
+}
+
+/* About Me */
+#aboutMe {
+  color: #EEEEEE;
+  padding: 3% 15% 7% 15%;
+  text-align: center;
+  background-color: #222831;
+}
+
+.name {
+  font-size: 5rem;
+  font-family: "Carter One"
+}
+
+.quick-bio {
+  font-size: 1.5rem;
+  line-height: 2.5;
+  color: #EEEEEE;
+  text-decoration: none;
+  position: relative;
+}
+
+.quick-bio:hover {
+  color: #FFD369
+}
+
+.summary {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.aboutMe-icons {
+  margin-top: 20px;
+}
+.aboutMe-links {
+  color: #EEEEEE;
+  font-size: 3rem;
+  margin: 20px 15px 0px 15px;
+}
+
+.aboutMe-image {
+  min-width: 450px;
+  object-fit: cover;
+  width: 55%;
+}
+
+.aboutMe-image:hover {
+  fill: #FFD369;
+}
+
+.aboutMe-links:hover {
+  color: #FFD369;
+  text-align: center;
+}
+
+.summary-words:hover {
+  color: #FFD369;
+}
+
+
+/* Projects */
+#projects {
+  background-color: #393E46;
+  padding: 1% 15%;
+}
+
+.project-image {
+  width: 30%;
+  position: relative;
+  float: right;
+  background-color: black;
+  margin: 20px;
+}
+.card {
+  text-align: center;
+  background-color: #EEEEEE;
+  margin: 40px 20px 30px;
+}
+
+
+#skills {
+  background-color: #222831;
+  color: white;
+  padding: 5% 15% 7% 15%;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+.skill-title {
+  font-size: 4.5rem;
+  line-height: 1.5;
+  margin-top: 10%;
+
+}
+
+.skill-box {
+  text-align: center;
+}
+
+.skill-list {
+  border: 1px solid #EEEEEE;
+  border-radius: 20%;
+  font-size: 2rem;
+  min-width: 450px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.main-skills:hover {
+  color: #FFD369;
+}
+
+.skill-img {
+  width: 7%;
+  fill: #EEEEEE;
+  margin: 10px;
+}
+
+.skill-img:hover {
+  fill: #FFD369;
+}
+
+/* Senior Research Project*/
+
+#senior-research-project {
+  background-color: #393E46;
+  text-align: center;
+  padding: 1% 5%;
+}
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.description {
+  color: #EEEEEE;
+  font-size: 1.8rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #EEEEEE;
+  margin-top: 15%;
+  padding: 3%;
+  border-radius: 20px;
+}
+
+.srp-links {
+  margin-right: 30px;
+  color: #EEEEEE;
+}
+
+.srp-links:hover {
+  color: #FFD369;
+}
